@@ -177,7 +177,8 @@ nav a:hover {
 .Main-title-word{
     color: #0000FF;
     font-size: 72px;
-    margin: auto auto;
+    padding: 15px;
+    margin: 0 auto;
 }
 
 .FoodDonate{
