@@ -165,15 +165,13 @@ nav a:hover {
 .Main-title{
     padding: 200px;
     text-align: center;
-	background-image: url(../image/lemons.jpg);
-	
 }
 .Main-title-border{
 	border-style: solid;
 	border-width: 8px;
 	border-color: #0000FF;
 	margin: 0 auto;
-	width: 370px;
+	width: 400px;
 	height: 100px;
 }
 .Main-title-word{
@@ -188,6 +186,7 @@ nav a:hover {
     background: orange;
     text-align: center;
     padding: 100px;
+<<<<<<< HEAD
 }
 
 #send{
@@ -199,9 +198,10 @@ nav a:hover {
     font-weight: bold;
     padding:10px 25px;
     margin: 10px auto 40px auto;
+=======
+>>>>>>> cc7f67000b2ac01cdf91fbf49e981beb1e60c13b
     
 }
-
 
 .idea{
     
@@ -220,6 +220,9 @@ nav a:hover {
 }
 
 
+[src="images/idea.jpg"]{
+    float: left;
+}
 
 
 
