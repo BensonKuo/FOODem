@@ -207,6 +207,7 @@ nav a:hover {
 	height: 70px;
 	margin: 50px 100px;
 }*/
+
 /*============================================
 Bootstrap
 ===========================================*/
@@ -359,12 +360,13 @@ BENSON edited: FoodDonate Page;
 }
 .FDtitle{
     font-size: 50px;
-    color: white;
+    color: black;
 }
 
 .note{
     font-style: italic;
     font-size: 25px;
+    color: white;
 }
 
 .FoodDonate-content{
