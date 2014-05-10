@@ -146,8 +146,7 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: white;
-    padding: 20px 0;
+    text-align: center;
 }
 
 /* ===============
@@ -459,16 +458,13 @@ BENSON edited
 Tina edit
 ==================================*/
 
-[src="images/idea.jpg"]{
-    
-
-}
-
-
 .ideacontent{
 
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
-
+    width:600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -478,11 +474,9 @@ Tina edit
     background: white;
     text-align: center;
     padding: 100px;
-
     
 }
-<<<<<<< HEAD
-=======
+
 
 .thinkabout{
     font-size: 27px;
@@ -503,19 +497,19 @@ Tina edit
 .changeway{
     font-size: 23px;
     color:#FF6363;
+}
     
-<<<<<<< HEAD
+[src="images/Hannah.png"]{
+    width: 200px;
+    height:200px;
 }
 
 [src="images/benson.png"]{
     width: 250px;
     height:250px;
 }
+
 [src="images/Tina.png"]{
     width: 250px;
     height:250px;
 }
->>>>>>> FETCH_HEAD
-=======
-}
->>>>>>> parent of 069e8d0... img
