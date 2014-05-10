@@ -202,26 +202,18 @@ nav a:hover {
 BENSON edited
  ==========================================*/
 .FoodDonate{
-<<<<<<< HEAD
-    
-    background: orange;
     text-align: center;
-=======
     background:#9F1CFF;
     
->>>>>>> FETCH_HEAD
     padding: 100px;
 }
 
-<<<<<<< HEAD
-.form{
 
-    
-=======
+
 
 .fd{
     text-align: center;
->>>>>>> FETCH_HEAD
+
 }
 
 
