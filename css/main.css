@@ -185,9 +185,21 @@ nav a:hover {
     
 }
 
+.idea{
+    
+    background: white;
+    text-align: center;
+    padding: 100px;
+
+    
+}
+
+.ideacontent{
+
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 
 
-
+}
 
 
 
