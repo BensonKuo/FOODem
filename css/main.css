@@ -84,7 +84,7 @@ body {
 
 .footer-container,
 .main aside {
-    border-top: 70px solid #e44d26;
+    border-top: 20px solid #e44d26;
 }
 
 .header-container,
@@ -133,7 +133,7 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 100px 0;
 }
 
 .main article h1 {
