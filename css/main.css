@@ -199,10 +199,10 @@ nav a:hover {
 }
 
 /*=========================================
-BENSON edited
+BENSON edited: FoodDonate Page;
  ==========================================*/
 .FoodDonate{
-    text-align: center;
+    /*text-align: center;*/
     background:#9F1CFF;
     padding: 100px;
 }
@@ -210,11 +210,14 @@ BENSON edited
 
 .FoodDonate-content{
     width: 1140px;
-       
+    display: inline-block;   
 }
 
+
+
 .form{
-    padding: 100px; 
+    width:50%;
+    float:left;
 }
 
 #send{
