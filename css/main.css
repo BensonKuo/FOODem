@@ -194,11 +194,11 @@ nav a:hover {
 
 
 /*=========================================
-BENSON edited
+Food Donat Page :BENSON edited 
  ==========================================*/
 .FoodDonate{
     
-    background: orange;
+    background: #F0F000;
     text-align: center;
     padding: 100px;
 
@@ -452,16 +452,16 @@ BENSON edited
 /*=================================
 Tina edit
 ==================================*/
-
-[src="images/idea.jpg"]{
-    
-
+.footer-container{
+ font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 }
+
 
 
 .ideacontent{
 
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 16px;
 
 
 }
@@ -469,9 +469,10 @@ Tina edit
 
 .idea{
     
-    background: white;
+    background: #FF5959;
     text-align: center;
     padding: 100px;
+    color: white;
 
     
 }
