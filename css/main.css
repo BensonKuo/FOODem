@@ -145,7 +145,8 @@ nav a:hover {
     padding: 0px 5% 10px;
 }
 
-.footer-container footer {
+.footer-container {
+    
     text-align: center;
     background-color: #f16529;
     color: white;
@@ -346,7 +347,7 @@ BENSON edited: FoodDonate Page;
  ==========================================*/
 .FoodDonate{
     /*text-align: center;*/
-    background:#9F1CFF;
+    background:#FFFF4F;
     padding: 100px;
 }
 
