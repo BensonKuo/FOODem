@@ -165,11 +165,7 @@ nav a:hover {
     padding: 200px;
     height: 400px;
 	text-align: center;
-	background-image: url(../image/Lemon_Drops.jpg);
-}
-.Main-title-filter{
-	background-color: white;
-	opacity: 0.2;
+	background-image: url(../images/Lemon_Drops.jpg);
 }
 .Main-title-border{
 	border-style: solid;
@@ -200,21 +196,15 @@ nav a:hover {
 BENSON edited
  ==========================================*/
 .FoodDonate{
-<<<<<<< HEAD
     
     background: orange;
-=======
-    background:#9F1CFF;
->>>>>>> FETCH_HEAD
     text-align: center;
     padding: 100px;
 
 }
 
 .form{
-    /*display: inline-block;*/
-    width: 10px;
-    text-align: center;
+
     
 }
 
@@ -484,28 +474,3 @@ Tina edit
 
     
 }
-<<<<<<< HEAD
-=======
-
-.thinkabout{
-    font-size: 27px;
-    color:green;
-}
-
-.trulyneed{
-    font-size: 30px;
-    color:orange;
-    text-align: center;
-}
-
-.wewantto{
-    font-size: 27px;
-    color:#00E600;
-}
-
-.changeway{
-    font-size: 23px;
-    color:#FF6363;
-    
-}
->>>>>>> FETCH_HEAD
