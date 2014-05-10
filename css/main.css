@@ -163,11 +163,13 @@ nav a:hover {
    ========================================================================== */
 
 .Main-title{
+    padding: 150px;
+}
+.Main-title . word{
     border-style: solid;
     border-width: 5px;
     border-color: #0000FF;
     color: #0000FF;
-    padding: 150px;
 }
 
 .FoodDonate{
