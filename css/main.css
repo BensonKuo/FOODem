@@ -199,19 +199,24 @@ Food Donat Page :BENSON edited
  ==========================================*/
 .FoodDonate{
     background:#9F1CFF;
-    text-align: center;
+    
     padding: 100px;
+}
 
+
+.fd{
+    text-align: center;
+}
+
+.container{
+    width: 1140px;
+    
+   
 }
 
 .form{
-    /*display: inline-block;*/
-    width: 10px;
-    text-align: center;
-    
+    margin: 100000px 100000px; 
 }
-
-
 
 #send{
     background: #007282;
