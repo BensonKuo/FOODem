@@ -165,6 +165,8 @@ nav a:hover {
 .Main-title{
     padding: 200px;
     text-align: center;
+	background-image: url(image/lemons.jpg);
+	
 }
 .Main-title-border{
 	border-style: solid;
