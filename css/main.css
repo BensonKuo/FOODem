@@ -166,14 +166,13 @@ nav a:hover {
     padding: 200px;
     text-align: center;
 	background-image: url(../image/Lemon_Drops.jpg);
-	
 }
 .Main-title-border{
 	border-style: solid;
 	border-width: 8px;
 	border-color: #F16529;
 	margin: 0 auto;
-	width: 370px;
+	width: 400px;
 	height: 100px;
 }
 .Main-title-word{
