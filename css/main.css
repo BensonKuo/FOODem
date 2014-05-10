@@ -181,27 +181,8 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.FoodDonate{
-    
-    background: orange;
-    text-align: center;
-    padding: 100px;
-<<<<<<< HEAD
-}
 
-#send{
-    background: #54c7bf;
-    color: white;
-    width: 240px;
-    border: soild;
-    font-size: 30px;
-    font-weight: bold;
-    padding:10px 25px;
-    margin: 10px auto 40px auto;
-=======
->>>>>>> cc7f67000b2ac01cdf91fbf49e981beb1e60c13b
-    
-}
+
 
 .idea{
     
@@ -225,9 +206,32 @@ nav a:hover {
 }
 
 
+/*=========================================
+BENSON edited
+ ==========================================*/
+.FoodDonate{
+    
+    background: orange;
+    text-align: center;
+    padding: 100px;
+
+}
 
 
 
+#send{
+    background: #54c7bf;
+    color: white;
+    width: 240px;
+    border: soild;
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px 25px;
+    margin: 10px auto 40px auto;
+=======
+>>>>>>> cc7f67000b2ac01cdf91fbf49e981beb1e60c13b
+    
+}
 
 
 /* ==========================================================================
