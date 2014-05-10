@@ -172,9 +172,9 @@ nav a:hover {
     border-color: #0000FF;
     color: #0000FF;
     font-size: 72px;
-    margin: 0 auto;
+    margin: auto auto;
     width: 400px;
-    height: 220px;
+    height: 150px;
 }
 
 .FoodDonate{
@@ -185,17 +185,6 @@ nav a:hover {
     
 }
 
-#send{
-    float:right;
-    background: #4bc4a7;
-    color: white;
-    width: 240px;
-    border: soild;
-    font-size: 25px;
-    font-weight: bold;
-    padding:10px 10px;
-    margin: 10px auto 10px auto;
-}
 
 
 
