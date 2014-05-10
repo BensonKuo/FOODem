@@ -188,8 +188,20 @@ nav a:hover {
     background: orange;
     text-align: center;
     padding: 100px;
+}
+
+#send{
+    background: #26d4ca;
+    color: white;
+    width: 240px;
+    border: soild;
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px 100px;
+    margin: 10px auto 40px auto;
     
 }
+
 
 .idea{
     
