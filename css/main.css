@@ -373,9 +373,7 @@ BENSON edited: FoodDonate Page;
     width: 1140px;
     display: inline-block;   
 }
-#send{
-    text-align: center;
-}
+
 .form{
     width:50%;
     float:left;
@@ -684,12 +682,18 @@ Tina edit
     margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0.67em;
-    padding-bottom: 0.67em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
     background-color: #A5BEE4;
     color: white;
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+}
 
+.aboutus h3{
+    color:black;
+}
 
+.profile{
+    padding: 50px auto;
 }
