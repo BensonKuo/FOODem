@@ -443,15 +443,13 @@ BENSON edited
 Tina edit
 ==================================*/
 
-[src="images/idea.jpg"]{
-    
 
-}
 
 
 .ideacontent{
 
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 16px;
 
 
 }
@@ -459,7 +457,7 @@ Tina edit
 
 .idea{
     
-    background: white;
+    background: #59FF59;
     text-align: center;
     padding: 100px;
 
