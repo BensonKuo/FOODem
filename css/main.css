@@ -181,19 +181,20 @@ nav a:hover {
     padding: 38px;
     margin: 0 auto;
 }
+.Main-button{
+	height: 200px;
+	width: 1020px;
+	margin: 70px auto; 
+}
 .btn{
 	display: inline-block;
 	background-color: #fe8122;
-	padding: 5px 12px;
-	border-radius: 1px;
+	padding: 20px 12px;
 	text-decoration: none;
 	color: white;
-}
-.btn a{
-}
-.emergency{
-}
-.nonemergency{
+	font-size: 54px;
+	height: 70px;
+	margin: 50px 100px;
 }
 
 /*=========================================
