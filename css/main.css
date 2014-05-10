@@ -164,7 +164,8 @@ nav a:hover {
 
 .Main-title{
     padding: 200px;
-    text-align: center;
+    height: 500px;
+	text-align: center;
 	background-image: url(../image/Lemon_Drops.jpg);
 }
 .Main-title-border{
