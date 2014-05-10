@@ -147,6 +147,9 @@ nav a:hover {
 
 .footer-container footer {
     text-align: center;
+    background-color: #f16529;
+    color: white;
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 }
 
 /* ===============
@@ -643,9 +646,9 @@ Tina edit
     color:#FF6363;
 }
     
-[src="images/Hannah.png"]{
-    width: 200px;
-    height:200px;
+[src="images/hannah.png"]{
+    width: 250px;
+    height:250px;
 }
 
 [src="images/benson.png"]{
