@@ -83,7 +83,8 @@ body {
 }
 
 .main aside {
-    border-top: 20px solid #e44d26;
+    
+    text-align: center;
 }
 
 .header-container,
@@ -201,19 +202,38 @@ nav a:hover {
 BENSON edited
  ==========================================*/
 .FoodDonate{
+<<<<<<< HEAD
     
     background: orange;
     text-align: center;
+=======
+    background:#9F1CFF;
+    
+>>>>>>> FETCH_HEAD
     padding: 100px;
-
 }
 
+<<<<<<< HEAD
 .form{
 
     
+=======
+
+.fd{
+    text-align: center;
+>>>>>>> FETCH_HEAD
 }
 
 
+.FoodDonate-content{
+    width: 1140px;
+    
+   
+}
+
+.form{
+    margin: 100000px 100000px; 
+}
 
 #send{
     background: #007282;
@@ -479,3 +499,37 @@ Tina edit
 
     
 }
+<<<<<<< HEAD
+=======
+
+.thinkabout{
+    font-size: 27px;
+    color:green;
+}
+
+.trulyneed{
+    font-size: 30px;
+    color:orange;
+    text-align: center;
+}
+
+.wewantto{
+    font-size: 27px;
+    color:#00E600;
+}
+
+.changeway{
+    font-size: 23px;
+    color:#FF6363;
+    
+}
+
+[src="images/benson.png"]{
+    width: 250px;
+    height:250px;
+}
+[src="images/Tina.png"]{
+    width: 250px;
+    height:250px;
+}
+>>>>>>> FETCH_HEAD
