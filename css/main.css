@@ -197,15 +197,16 @@ nav a:hover {
 Food Donat Page :BENSON edited 
  ==========================================*/
 .FoodDonate{
-    
-    background: #EBEB00;
+    background:#9F1CFF;
     text-align: center;
     padding: 100px;
 
 }
 
 .form{
-
+    /*display: inline-block;*/
+    width: 10px;
+    text-align: center;
     
 }
 
