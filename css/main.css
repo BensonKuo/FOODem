@@ -455,7 +455,11 @@ Tina edit
 .ideacontent{
 
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
-    font-size: 16px;
+    font-size: 20px;
+    width: 600px;
+    text-align: left;
+    margin-right: auto;
+    margin-left:auto;
 
 
 }
@@ -463,10 +467,25 @@ Tina edit
 
 .idea{
     
-    background: #FF5959;
+    background: white;
     text-align: center;
     padding: 100px;
-    color: white;
 
     
+}
+
+.thinkabout{
+    font-size: 27px;
+    color:green;
+}
+
+.trulyneed{
+    font-size: 30px;
+    color:orange;
+    text-align: center;
+}
+
+.wewantto{
+    font-size: 30px;
+    color:#00E600;
 }
