@@ -373,7 +373,9 @@ BENSON edited: FoodDonate Page;
     width: 1140px;
     display: inline-block;   
 }
-
+#send{
+    text-align: center;
+}
 .form{
     width:50%;
     float:left;
