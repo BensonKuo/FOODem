@@ -183,36 +183,46 @@ nav a:hover {
     margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+BENSON edited
+ ==========================================*/
 .FoodDonate{
     
     background: orange;
     text-align: center;
     padding: 100px;
-    
+
 }
 
-.idea{
-    
-    background: white;
-    text-align: center;
-    padding: 100px;
+.form{
 
     
 }
 
-.ideacontent{
-
-    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 
 
+#send{
+    background: #007282;
+    color: white;
+    width: 240px;
+    border: soild;
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px 25px;
+    margin: 10px auto 40px auto;
+
+    
 }
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -431,4 +441,31 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/*=================================
+Tina edit
+==================================*/
+
+[src="images/idea.jpg"]{
+    
+
+}
+
+
+.ideacontent{
+
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+
+
+}
+
+
+.idea{
+    
+    background: white;
+    text-align: center;
+    padding: 100px;
+
+    
 }
