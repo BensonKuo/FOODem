@@ -181,16 +181,20 @@ nav a:hover {
     padding: 38px;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
+.btn{
+	display: inline-block;
+	background-color: #fe8122;
+	padding: 5px 12px;
+	border-radius: 1px;
+	text-decoration: none;
+	color: white;
+}
+.btn a{
+}
+.emergency{
+}
+.nonemergency{
+}
 
 /*=========================================
 BENSON edited
