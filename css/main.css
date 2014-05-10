@@ -173,7 +173,8 @@ nav a:hover {
     color: #0000FF;
     font-size: 72px;
     margin: 0 auto;
-    width: 450px;
+    width: 400px;
+    height: 220px;
 }
 
 .FoodDonate{
