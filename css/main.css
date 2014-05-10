@@ -238,7 +238,7 @@ BENSON edited
     nav a {
         float: left;
         width: 27%;
-        margin: 10px 1.7%;
+        margin: 15px 1.7%;
         padding: 10px 2%;
         margin-bottom: 0;
     }
@@ -283,10 +283,16 @@ BENSON edited
    ============ */
 
     nav {
-	height: 75px;
+		display: inline-block;
+		height: 75px;
         width: 38%;
     }
 
+    .loginFB{
+    	position: fixed;
+		padding-left: 450px;
+		padding-top: 25px;
+	}
 /* ============
     WIDE: Main
    ============ */
@@ -309,7 +315,7 @@ BENSON edited
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 1140px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
