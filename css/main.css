@@ -357,14 +357,20 @@ BENSON edited: FoodDonate Page;
     background:#FFFF4F;
     padding: 100px;
 }
+.FDtitle{
+    font-size: 50px;
+    color: white;
+}
 
+.note{
+    font-style: italic;
+    font-size: 25px;
+}
 
 .FoodDonate-content{
     width: 1140px;
     display: inline-block;   
 }
-
-
 
 .form{
     width:50%;
@@ -380,8 +386,7 @@ BENSON edited: FoodDonate Page;
     font-weight: bold;
     padding:10px 25px;
     margin: 10px auto 40px auto;
-
-    
+   
 }
 
 
