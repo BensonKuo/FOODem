@@ -171,6 +171,7 @@ nav a:hover {
     border-width: 5px;
     border-color: #0000FF;
     color: #0000FF;
+    font-size: 72px;
     margin: 0 auto;
     width: 150px;
 }
