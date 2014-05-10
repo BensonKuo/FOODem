@@ -204,27 +204,17 @@ BENSON edited
 .FoodDonate{
     text-align: center;
     background:#9F1CFF;
-    
     padding: 100px;
-}
-
-
-
-
-.fd{
-    text-align: center;
-
 }
 
 
 .FoodDonate-content{
     width: 1140px;
-    
-   
+       
 }
 
 .form{
-    margin: 100000px 100000px; 
+    padding: 100px; 
 }
 
 #send{
