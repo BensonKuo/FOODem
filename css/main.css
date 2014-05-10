@@ -668,3 +668,19 @@ Tina edit
     width: 250px;
     height:250px;
 }
+
+
+.aboutus{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.67em;
+    padding-bottom: 0.67em;
+    text-align: center;
+    background-color: #f16529;
+    color: white;
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+
+
+}
