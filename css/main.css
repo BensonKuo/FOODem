@@ -190,7 +190,14 @@ nav a:hover {
 	width: 1020px;
 	margin: 70px auto; 
 }
-.btn{
+
+.Main-button-word{
+    color: #F16529;
+    font-size: 72px;
+    padding: 38px;
+    margin: 0 auto;
+}
+/*.btn{
 	display: inline-block;
 	background-color: #fe8122;
 	padding: 20px 12px;
@@ -199,7 +206,7 @@ nav a:hover {
 	font-size: 54px;
 	height: 70px;
 	margin: 50px 100px;
-}
+}*/
 /*============================================
 Bootstrap
 ===========================================*/
