@@ -79,6 +79,7 @@ body {
 .header-container {
     border-bottom: 20px solid #e44d26;
 	position: fixed;
+	width: 100%;
 }
 
 .footer-container,
