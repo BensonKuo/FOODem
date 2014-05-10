@@ -82,7 +82,6 @@ body {
 	width: 100%;
 }
 
-.footer-container,
 .main aside {
     border-top: 20px solid #e44d26;
 }
@@ -194,11 +193,11 @@ nav a:hover {
 
 
 /*=========================================
-Food Donat Page :BENSON edited 
+BENSON edited
  ==========================================*/
 .FoodDonate{
     
-    background: #F0F000;
+    background: orange;
     text-align: center;
     padding: 100px;
 
@@ -452,16 +451,16 @@ Food Donat Page :BENSON edited
 /*=================================
 Tina edit
 ==================================*/
-.footer-container{
- font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
-}
 
+[src="images/idea.jpg"]{
+    
+
+}
 
 
 .ideacontent{
 
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
-    font-size: 16px;
 
 
 }
@@ -469,10 +468,9 @@ Tina edit
 
 .idea{
     
-    background: #FF5959;
+    background: white;
     text-align: center;
     padding: 100px;
-    color: white;
 
     
 }
