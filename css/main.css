@@ -116,7 +116,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #F75C2F;
 }
 
 nav a:hover,
@@ -355,7 +355,7 @@ BENSON edited: FoodDonate Page;
  ==========================================*/
 .FoodDonate{
     /*text-align: center;*/
-    background:#FFFF4F;
+    background:#F6C555;
     padding: 100px;
 }
 .FDtitle{
@@ -633,7 +633,7 @@ Tina edit
 
 .idea{
     
-    background: white;
+    background: #FEDFE1;
     text-align: center;
     padding: 100px;
 
@@ -685,7 +685,7 @@ Tina edit
     padding-top: 0.67em;
     padding-bottom: 0.67em;
     text-align: center;
-    background-color: #8C8CFF;
+    background-color: #A5BEE4;
     color: white;
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 
