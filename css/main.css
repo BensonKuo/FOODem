@@ -183,10 +183,10 @@ nav a:hover {
 }
 .Main-button{
 	height: 200px;
-	width: 1000px;
+	width: 1020px;
 	margin: 70px auto; 
 }
-/*.btn{
+.btn{
 	display: inline-block;
 	background-color: #fe8122;
 	padding: 20px 12px;
@@ -195,7 +195,7 @@ nav a:hover {
 	font-size: 54px;
 	height: 70px;
 	margin: 50px 100px;
-}*/
+}
 /*============================================
 Bootstrap
 ===========================================*/
