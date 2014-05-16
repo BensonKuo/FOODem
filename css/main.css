@@ -166,10 +166,10 @@ nav a:hover {
    ========================================================================== */
 
 .Main-title{
-    padding: 200px;
+	padding: 200px;
     height: 400px;
 	text-align: center;
-	background-image: url(../images/Lemon_Drops.jpg);
+	background-image: url(../images/Lemon_Drops2.jpg);
 }
 .Main-title-border{
 	border-style: solid;
