@@ -204,7 +204,7 @@ BENSON edited: FoodDonate Page;
  ==========================================*/
 .FoodDonate{
     /*text-align: center;*/
-    background:#F6C555;
+    background:#AF5F3C;
     padding: 80px;
 }
 .FDtitle{
@@ -212,14 +212,14 @@ BENSON edited: FoodDonate Page;
     color: black;
 }
 
-.note{
+.descript{
     font-style: italic;
     font-size: 25px;
     color: white;
 }
 
 .FoodDonate-content{
-    width: 1140px;
+    width: 100%;
     display: inline-block;   
 }
 
@@ -229,17 +229,22 @@ BENSON edited: FoodDonate Page;
 }
 
 #send{
-    background: #007282;
+    background: #268785;
     color: white;
-    width: 240px;
+    width: 70px;
     border: soild;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
+    
     padding:10px 25px;
-    margin: 10px auto 40px auto;
-   
+    margin: 10px auto 10px auto;
+    display: block;
 }
 
+.FoodExchange{
+    /*text-align: center;*/
+    background:#A36336;
+    padding: 80px;
+}
 
 /* ==========================================================================
    Media Queries
