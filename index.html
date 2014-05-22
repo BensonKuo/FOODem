@@ -28,11 +28,11 @@
                 <nav>
                     <ul>
                         <li><a href="#">HOME</a></li>
-						<li><a href="#">IDEA</a></li>
-						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#ideaID">IDEA</a></li>
+						<li><a href="#aboutusID">ABOUT US</a></li>
 					</ul>
                 </nav>
-                <a href='#'><img class="loginFB" src="images/FB-Buttons.png"></a>
+                <a href='#'><img class="loginFB" id="fblogin_button" src="images/FB-Buttons.png"></a>
             </header>
         </div>
         <div class="Main-title">
@@ -40,47 +40,44 @@
                     <p class="Main-title-word">FOODem</p>
                 </div><br><br><br><br><br><br><br>
                 <div class="Main-button">
-                    <a href="#"class="Main-button-word" href="#">Food Donate</a>&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
-                    <a href="#"class="Main-button-word">Food Exchange</a>
+                    <a class="Main-button-word" href="#donate">Food Donate</a>&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+                    <a href="#ex"class="Main-button-word">Food Exchange</a>
                 </div>
         </div>
-<<<<<<< HEAD
-=======
 
         <div class="main-container">
 
 
     </div> <!-- #main-container -->
 
-        
-
-
->>>>>>> FETCH_HEAD
-<div class="idea" style="">
+<div class="idea" id="ideaID"style="">
 
 
 
 <h1><img src="images/idea.png" alt="" height="50" width="50"> IDEA </h1><br><br>
 
+    <h1><img src="images/idea.png" alt="" height="50" width="50"><a name="idea"> IDEA </a></h1><br><br>
 
-<div class="ideacontent" style="">
-    <p>
-    <span class="thinkabout">想想看</span>，辦活動之後剩下來的食物、座談會剩下的餐盒、訂太多吃不完的披薩、週用剩的食材等等，最後都去了哪裡？<br></br><span class="trulyneed">食物是不是可以給真正需要的人呢？</span><br></br><span class="wewantto">我們想要避免食物資源的浪費</span>，以<span class="changeway">即時交換</span>或<span class="changeway">贈予</span>的形式，讓原本可能會被丟棄的物資達到更有效的利用。</br>
+    <div class="ideacontent" style="">
+        <p>
+        <span class="thinkabout">想想看</span>，辦活動之後剩下來的食物、座談會剩下的餐盒、訂太多吃不完的披薩、週用剩的食材等等，最後都去了哪裡？<br></br><span class="trulyneed">食物是不是可以給真正需要的人呢？</span><br></br><span class="wewantto">我們想要避免食物資源的浪費</span>，以<span class="changeway">即時交換</span>或<span class="changeway">贈予</span>的形式，讓原本可能會被丟棄的物資達到更有效的利用。</br>
+        </p>
+    </div>
 
-    </p>
-</div>
-
-</section>
 </div>
 
 
 <div class="FoodDonate"> 
-    <h1 class="FDtitle">Some Food to Donate...</h1>
+    <h1 class="FDtitle"><a name="donate">Some Food to Donate...</a></h1>
      <p class="descript">Give away extra foods,&nbsp;&nbsp;&nbsp;Reduce food waste.</p><br><br>
     <div class="FoodDonate-content"> 
         
         <div class="form"> 
             <ui>
+                <li style=list-style-type:none>
+                    <img src="images/facebook.svg">
+                        Owner name: 這理顯示登入的fb資訊
+                </li><br><br>
                 <li style=list-style-type:none>
                     <img src="images/magnify.svg">
                         Food Name:
@@ -115,7 +112,8 @@
         </div> 
             
     </div>
-    <a href="#" id="send">SEND</a>  
+        <br>
+        <a href="#" class="myButton">Send</a>
 </div> 
 
 
@@ -123,16 +121,23 @@
 
 
 <div class="FoodExchange">
-    <h1 class="FDtitle">Some Food to Exchange...</h1>
+    <h1 class="FDtitle"><a name="ex">Some Food to Exchange...</a></h1>
     <p class="descript">Exchange your foods with other</p>
     <br><br>
-
+    這裡放個可愛的交換食物圖片之類的 
+    <div class="FoodDonate-content"> 
+        
+               
+        <a href="#" class="myButton1">Let's Exchange!</a>
+    
+            
+    </div>
+      
 
 </div>
 
 
-
-        <div class="aboutus">
+        <div class="aboutus"id="aboutusID">
 
 	    	<h1>About us</h1>
             <br><br><br>
@@ -150,10 +155,10 @@
         
         </div>
 
+        <!-- Scripts -->
+            <script type="text/javascript" src="js/index.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
-        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
