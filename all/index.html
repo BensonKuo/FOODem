@@ -20,56 +20,7 @@
     </head>
     
     <script type="text/javascript" src="http://connect.facebook.net/zh_TW/all.js"></script>
-    
-    <script type="text/javascript">
-        // 初始化 & 登入
-        function oplogin() {
-            FB.init({ appId: '635285726564421', status: true, cookie: true, xfbml: true }); //appid請去FB申請應用程式
-            fblogin();
-        }
-    function fblogin() {
-        FB.login(function (response) {
-                 if (response.authResponse) {
-                 //登入成功
-                 FB.api('/me', function (response) {
-                        //取得 json格式
-                        var html = '<table>';
-                        debugger;
-                        for (var key in response) {
-                        html += ('<tr>' + '<th>' + key + '</th>' + '<td>' + response[key] + '</td>' + '</tr>');
-                        }
-                        document.getElementById('me').innerHTML = html + '</table>';
-                        });
-                 }
-                 else {
-                 //登入失敗
-                 alert("登入失敗。");
-                 }
-                 });
-    }
-    //登出
-    function fblogout() {
-        FB.getLoginStatus(function (response) {
-                          if (response.status === 'connected') {
-                          FB.logout(function (response) {
-                                    // user is now logged out
-                                    document.getElementById('loginform').submit();
-                                    });
-                          } else if (response.status === 'not_authorized') {
-                          // the user is logged in to Facebook,
-                          // but has not authenticated your app
-                          FB.logout(function (response) {
-                                    // user is now logged out
-                                    alert("請重新登入！");
-                                    });
-                          } else {
-                          // the user isn't logged in to Facebook.
-                          alert("請重新登入！");
-                          }
-                          });
-    }
-    </script>
-    <body onLoad="oplogin()">
+     <body onLoad="oplogin()">
 
         <div class="header-container">
             <header class="wrapper clearfix">
@@ -80,18 +31,10 @@
 						<li><a href="#aboutusID">ABOUT US</a></li>
 
 					</ul>
-                </nav>
-                <!-- <img class="loginFB" id="fblogin_button" src="images/FB-Buttons.png" onclick="javascript:fbAsyncInit();return false;"/> -->
-                
-                <form id="form1" runat="server">
-                    <div>
-                        
-                        <input type="button" id="btn2" onclick="javascript:oplogin();return false;" value="取得Facebook登入者資訊(PartII)" />
-                        <div id="me"></div>
-                        
-                    </div>
-                </form>
-                
+                </nav>                        
+                <image src="images/FB-Buttons.png" class="loginFB" id="btn2" onclick="javascript:oplogin();return false;"  />
+				<input type="button" id="btn3" onclick="javascript:oplogout();return false;" value="登出" style="display: none;"/>
+				<div id="me"></div>
             </header>
         </div>
         <div class="Main-title">
