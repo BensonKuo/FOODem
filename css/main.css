@@ -90,7 +90,7 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .title {

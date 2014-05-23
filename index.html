@@ -12,16 +12,64 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <!-- <link href="public/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="public/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    
+    <script type="text/javascript" src="http://connect.facebook.net/zh_TW/all.js"></script>
+    
+    <script type="text/javascript">
+        // 初始化 & 登入
+        function oplogin() {
+            FB.init({ appId: '635285726564421', status: true, cookie: true, xfbml: true }); //appid請去FB申請應用程式
+            fblogin();
+        }
+    function fblogin() {
+        FB.login(function (response) {
+                 if (response.authResponse) {
+                 //登入成功
+                 FB.api('/me', function (response) {
+                        //取得 json格式
+                        var html = '<table>';
+                        debugger;
+                        for (var key in response) {
+                        html += ('<tr>' + '<th>' + key + '</th>' + '<td>' + response[key] + '</td>' + '</tr>');
+                        }
+                        document.getElementById('me').innerHTML = html + '</table>';
+                        });
+                 }
+                 else {
+                 //登入失敗
+                 alert("登入失敗。");
+                 }
+                 });
+    }
+    //登出
+    function fblogout() {
+        FB.getLoginStatus(function (response) {
+                          if (response.status === 'connected') {
+                          FB.logout(function (response) {
+                                    // user is now logged out
+                                    document.getElementById('loginform').submit();
+                                    });
+                          } else if (response.status === 'not_authorized') {
+                          // the user is logged in to Facebook,
+                          // but has not authenticated your app
+                          FB.logout(function (response) {
+                                    // user is now logged out
+                                    alert("請重新登入！");
+                                    });
+                          } else {
+                          // the user isn't logged in to Facebook.
+                          alert("請重新登入！");
+                          }
+                          });
+    }
+    </script>
+    <body onLoad="oplogin()">
 
         <div class="header-container">
             <header class="wrapper clearfix">
@@ -33,7 +81,17 @@
 
 					</ul>
                 </nav>
-                <a href='#'><img class="loginFB" id="fblogin_button" src="images/FB-Buttons.png"></a>
+                <!-- <img class="loginFB" id="fblogin_button" src="images/FB-Buttons.png" onclick="javascript:fbAsyncInit();return false;"/> -->
+                
+                <form id="form1" runat="server">
+                    <div>
+                        
+                        <input type="button" id="btn2" onclick="javascript:oplogin();return false;" value="取得Facebook登入者資訊(PartII)" />
+                        <div id="me"></div>
+                        
+                    </div>
+                </form>
+                
             </header>
         </div>
         <div class="Main-title">
@@ -152,7 +210,7 @@
         </div>
 
         <!-- Scripts -->
-            <script type="text/javascript" src="js/index.js"></script>
+            <script type="text/javascript" src="js/fbLogin.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
