@@ -7,13 +7,24 @@ function fblogin() {
     FB.login(function (response) {
              if (response.authResponse) {
              //登入成功
-             FB.api('/me', function (response) {
+             FB.api('/me', {fields:['id', 'name']}, function (response) {
                     //取得 json格式
                     var html = '<table>';
-                    debugger;
+                    //debugger;
+		    var newAccount = {
+			'id':'',
+	     		'name':''
+		    }
+		    $.ajax({
+		    	url: "/accounts",
+		    	type: "POST",
+		    	dataType: "JSON",
+		    	data: newAccount});
                     for (var key in response) {
-                    html += ('<tr>' + '<th>' + key + '</th>' + '<td>' + response[key] + '</td>' + '</tr>');
-                    }
+			html += ('<tr>' + '<th>' + key + '</th>' + '<td>' + response[key] + '</td>' + '</tr>');
+		    	newAccount[key] = response[key];
+		    }
+		    console.log('data',newAccount);
                     document.getElementById('me').innerHTML = html + '</table>';
                     });
                     btn2.style.display="none";

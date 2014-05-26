@@ -13,4 +13,5 @@ app
 .set('view engine', 'ejs')
 .use(express.bodyParser())
 .get('/', controllers.index)
+.post('/accounts', controllers.createAccount)
 .listen(port, host);
