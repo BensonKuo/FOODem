@@ -7,6 +7,8 @@
 var oform = document.forms['DonateForm'],
     getName = oform.elements.name.value,
     getPlace = oform.elements.place.value,
+    getDeadline = oform.elements.Deadline.value,
+    getDescription = oform.elements.Description.value,
     sendButton = $('#senddonate'),
 
 
