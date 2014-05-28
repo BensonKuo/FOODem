@@ -3,7 +3,33 @@
 (function(){
 
 
-var form = $('.basic-grey');
+//var form = $('.basic-grey');
+var oform = document.forms['DonateForm'],
+    getName = oform.elements.name.value,
+    getPlace = oform.elements.place.value,
+    sendButton = $('#senddonate'),
+
+
+
+sendButton.on('click',function(){
+
+	getName
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // prepare the form when the DOM is ready 
 $(form).ready(function() { 

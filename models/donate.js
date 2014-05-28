@@ -3,7 +3,7 @@ var itemsFilePathname = __dirname + '/donatedata.json';
 
 
 
-//從json讀到動態牆  改成food
+//從json讀到動態牆  改成food 先不管這理
 module.exports.load = function (food, callback) {
   fs.readFile(itemsFilePathname, 'utf8', function (err, data) {
     var foods = []

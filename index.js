@@ -19,4 +19,5 @@ app
 .use(express.bodyParser())
 .get('/', controllers.index)
 .post('/accounts', controllers.createAccount)
+.post('/donatedata',controllers.createitem)
 .listen(port, host);
