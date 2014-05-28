@@ -1,3 +1,4 @@
+
 var fs = require('fs');
 var Account = require('../models/account');
 var Donate = require('../models/donate');
@@ -6,14 +7,14 @@ var Donate = require('../models/donate');
 
 
 module.exports.createitem = function (req, res) {
-  Donate.create(req.body, function (donate) {
-    res.json(donate;
+  Donate.create(req.body, function (Donate) {
+    res.json(Donate);
   });
 }
 
 module.exports.load = function (req, res) {
-  Donate.load(req.body, function (donate) {
-    res.json(donate);
+  Donate.load(req.body, function (Donate) {
+    res.json(Donate);
   });
 }
 

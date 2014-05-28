@@ -7,7 +7,7 @@ module.exports.create = function (account, callback){
 		if (!err && data.length) {
 		      accounts = JSON.parse(data);
 	    }		  
-		accounts.splice(0,0,item);
+		accounts.splice(0,0,account);
 		    for (var i = 0;i < accounts.length;i++){
 					        accounts[i].id = i;				    
 			}
