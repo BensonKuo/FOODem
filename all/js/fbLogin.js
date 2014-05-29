@@ -15,15 +15,19 @@ function fblogin() {
 			'id':'',
 	     		'name':''
 		    }
+                    for (var key in response) {
+			newAccount[key] = response[key];
+		    }
+		    html += ('<tr>' + '<th>' + 'id' + '</th>' + '<td>' + newAccount.id + '</td>' + '</tr>');
+		    html += ('<tr>' + '<th>' + 'name' + '</th>' + '<td>' + newAccount.name + '</td>' + '</tr>');
+		    
 		    $.ajax({
 		    	url: "/accounts",
 		    	type: "POST",
 		    	dataType: "JSON",
-		    	data: newAccount});
-                    for (var key in response) {
-			html += ('<tr>' + '<th>' + key + '</th>' + '<td>' + response[key] + '</td>' + '</tr>');
-		    	newAccount[key] = response[key];
-		    }
+		    	data: newAccount}).done(function(response){
+		    				console.log("success!!");
+		    				});
 		    console.log('data',newAccount);
                     document.getElementById('me').innerHTML = html + '</table>';
                     });

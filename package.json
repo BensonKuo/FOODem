@@ -1,0 +1,22 @@
+{
+  "name": "FOODem",
+  "version": "0.0.0",
+  "description": "Node.js for FOODem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BensonKuo/FOODem.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Hannah, Benson, Tina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BensonKuo/FOODem/issues"
+  },
+  "homepage": "https://github.com/BensonKuo/FOODem"
+}
