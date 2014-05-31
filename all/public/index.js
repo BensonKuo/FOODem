@@ -13,7 +13,7 @@
 		    getPlace = oform.elements.place.value,
 		    getDeadline = oform.elements.Deadline.value,
 		    getDescription = oform.elements.Description.value,
-		    sendButton = $('#senddonate'),
+		    sendButton = $('#senddonate');
 
 		console.log("oform.elements.name.value")
 
