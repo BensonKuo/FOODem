@@ -1,174 +1,204 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>FOODem</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a responsive product landing page.">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="shortcut icon" href="snail.ico">
-        <!-- <link href="public/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+    <title>Landing Page &ndash; Layout Examples &ndash; Pure</title>
 
-        <script src="js/vendor/jquery-1.11.0.min.js"></script>
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="public/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
-        <script src="http://malsup.github.com/jquery.form.js"></script> 
-<<<<<<< HEAD
-	<!--<script src="all/public/index.js"></script>-->
-=======
-        <script type="all/public/index.js"></script>
->>>>>>> FETCH_HEAD
-    </head>
     
-    <script type="text/javascript" src="http://connect.facebook.net/zh_TW/all.js"></script>
-     <body onLoad="oplogin()">
-
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <nav>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-						<li><a href="#ideaID">IDEA</a></li>
-						<li><a href="#aboutusID">ABOUT US</a></li>
-
-					</ul>
-                </nav>                        
-                <image src="images/FB-Buttons.png" class="loginFB" id="btn2" onclick="javascript:oplogin();return false;"  />
-				<input type="button" id="btn3" onclick="javascript:oplogout();return false;" value="登出" style="display: none;"/>
-				<div id="me"></div>
-            </header>
-        </div>
-        <div class="Main-title">
-                <div class="Main-title-border">
-                    <p class="Main-title-word">FOODem</p>
-                </div><br><br><br><br><br><br><br>
-                <div class="Main-button">
-                    <a class="Main-button-word" href="#donate">Food Donate</a>&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
-                    <a href="#ex"class="Main-button-word">Food Exchange</a>
-                </div>
-        </div>
 
 
-        <div class="main-container">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
 
-    </div> <!-- #main-container -->
-<div class="idea" id="ideaID"style="">
 
-    <h1><img src="images/idea.png" alt="" height="50" width="50"><a name="idea"> IDEA </a></h1><br><br>
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
 
-    <div class="ideacontent" style="">
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+</head>
+
+<body>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">FOODem</a>
+
+        <ul>
+            <li class="pure-menu-selected"><a href="#">Home</a></li>
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">FOODem</h1>
+        <p class="splash-subhead">
+            Don't waste food--Emergency Food Donate
+        </p>
         <p>
-        <span class="thinkabout">想想看</span>，辦活動之後剩下來的食物、座談會剩下的餐盒、訂太多吃不完的披薩、週用剩的食材等等，最後都去了哪裡？<br></br><span class="trulyneed">食物是不是可以給真正需要的人呢？</span><br></br><span class="wewantto">我們想要避免食物資源的浪費</span>，以<span class="changeway">即時交換</span>或<span class="changeway">贈予</span>的形式，讓原本可能會被丟棄的物資達到更有效的利用。</br>
+            <a href="http://purecss.io" class="pure-button pure-button-primary">FOOD DONATE</a>
         </p>
     </div>
-
 </div>
 
-
-<div class="FoodDonate"> 
-    <h1 class="FDtitle"><a name="donate">Some Food to Donate...</a></h1>
-     <p class="descript">Give away extra foods,&nbsp;&nbsp;&nbsp;Reduce food waste.</p><br><br>
-
-    <div class="FoodDonate-content"> 
+<div class="content-wrapper">
+    <div class="content">
+        <h1 class="is-center"><img src="images/idea.png" alt="" height="50" width="50"><a name="idea"class="content-head is-center"> IDEA </a></h1><br>
         
-        <form action="/submit.html" name= "DonateForm1" method="GET"class="basic-grey">
-            <h1>Donating Form 
-                <span>Please fill all the texts in the fields.</span>
-            </h1>
-            <label>
-                <span>Food Name :</span>
-                <input id="name" type="text" name="name" placeholder="Donated Food Name" />
-            </label>
-            
-            <label>
-                <span>Food Position:</span>
-                <input id="place" type="text" name="place" placeholder="Where's the Food" />
-            </label>
-            <label>
-                <span>Avaliable until:</span>
-                <input id="deadline" type="text" name="Deadline" placeholder="When's the Deadline?"/>
-            </label>
-            <label>
-                <span>Description :</span>
-                <textarea id="description" name="Description" placeholder="Descibe the Food!"> </textarea>
-            </label> 
-             
-             <label>
-                <span>&nbsp;</span> 
-		<!--<input type="submit" class="button" id="senddonate" value="Send">--> 
-                <input type="submit" class="button" id="senddonate" href="submit.html" value="Send"> 
-            </label>    
-        </form>
-           
+        <div class="idea" style="">
+            <p>
+            <span class="thinkabout">想想看</span>，辦活動之後剩下來的食物、座談會剩下的餐盒、訂太多吃不完的披薩、週用剩的食材等等，最後都去了哪裡？<br></br><span class="trulyneed">食物是不是可以給真正需要的人呢？</span><br></br><span class="wewantto">我們想要避免食物資源的浪費</span>，以<span class="changeway">即時交換</span>或<span class="changeway">贈予</span>的形式，讓原本可能會被丟棄的物資達到更有效的利用。</br>
+			</p>
+			<br>
+        </div>
     </div>
-
-        <br><br>
-        <a href="#" class="myButton" target="_blank">Send</a>
-
-
-</div> 
-
-
-
-
-
-<div class="FoodExchange">
-    <h1 class="FDtitle"><a name="ex">Some Food to Exchange...</a></h1>
-    <p class="descript">Exchange your foods with other</p>
-    <br><br>
-    這裡放個可愛的交換食物圖片之類的 
-    <div class="FoodDonate-content">
-        <a href="#" class="myButton1" target="_blank">Let's Exchange!</a>
-    
-            
-    </div>
-      
-
-</div>
-
-
-        <div class="aboutus"id="aboutusID">
-
-	    	<h1><a name="about">About us</a></h1>
-            <br><br><br>
-            <div class="profile">
-
-            <img src="images/hannah.png">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/benson.png">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/Tina.png">
+    <div class="ribbon l-box-lrg pure-g">
+        <h2 class="content-head content-head-ribbon is-center">Some Food to Donate...</h2>
+        
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form action="/timeline.html" name="DonateForm" method="GET"class="pure-form pure-form-stacked">
+                    <fieldset>
+                        
+                        <label class="ribbon" for="name">Food Name</label>
+                        <input id="name" type="text" placeholder="Donated Food Name">
+                            
+                            
+                        <label class="ribbon" for="place">Food Position</label>
+                        <input id="place" type="text" placeholder="Where's the Food">
+                                
+                        <label class="ribbon" for="Deadline">Available Time</label>
+                        <input id="Deadline" type="time" placeholder="When's the Deadline?">
+                                    
+                        <label class="ribbon" for="Description">Description</label>
+                        <input id="Description" type="text" placeholder="">
+						
+						<button type="submit" class="pure-button">Send</button>
+                    </fieldset>
+                </form>
             </div>
-            <br><br>
-
-            <h3>王涵 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;郭榮宇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;謝佳凌</h3>
-
+        </div>
         
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">About Us</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    王涵
+                </h3>
+				<img class="arthor_pic is-center"src="images/hannah.png">
+			</div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    郭榮宇
+                </h3>
+				<img class="arthor_pic is-center" src="images/benson.png">
+			</div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    謝佳凌
+                </h3>
+				<img class="arthor_pic is-center" src="images/Tina.png">
+			</div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    Contact Us
+                </h3>
+				<p>
+				If you have any problem or recommendation while using this website, please contact us. We'll reply you as soon as possible. Thank you~<br><br> 
+					Email: FOODem@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+<!--
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor.
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+
+
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" placeholder="Your Email">
+
+                        <label for="password">Your Password</label>
+                        <input id="password" type="password" placeholder="Your Password">
+
+                        <button type="submit" class="pure-button">Sign Up</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Contact Us</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+
+                <h4>More Information</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
         </div>
 
-	<!-- Scripts -->
-	  <script type="text/javascript" src="js/jquery.min.js"></script>
-	    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-            <script type="text/javascript" src="js/fbLogin.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+    </div>
+	-->
+    <div class="footer l-box is-center">
+        Made with love by the FOODem Team.
+    </div>
+</div>
+</body>
 </html>
