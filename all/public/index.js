@@ -4,18 +4,24 @@
 
 
 //var form = $('.basic-grey');
-var oform = document.forms['DonateForm'],
-    getName = oform.elements.name.value,
-    getPlace = oform.elements.place.value,
-    getDeadline = oform.elements.Deadline.value,
-    getDescription = oform.elements.Description.value,
-    sendButton = $('#senddonate'),
+	sendButton.on('click',function(){
+
+		document.getElementById("DonateForm").submit();
+
+		var oform = document.forms['DonateForm'],
+		    getName = oform.elements.name.value,
+		    getPlace = oform.elements.place.value,
+		    getDeadline = oform.elements.Deadline.value,
+		    getDescription = oform.elements.Description.value,
+		    sendButton = $('#senddonate'),
+
+		console.log("oform.elements.name.value")
+
+	})
 
 
 
-sendButton.on('click',function(){
 
-	getName
 })
 
 
@@ -24,14 +30,7 @@ sendButton.on('click',function(){
 
 
 
-
-
-
-
-
-
-
-
+/*
 
 // prepare the form when the DOM is ready 
 $(form).ready(function() { 
@@ -98,6 +97,5 @@ function showResponse(responseText, statusText, xhr, $form)  {
 } 
 
 
+*/
 
-
-})
