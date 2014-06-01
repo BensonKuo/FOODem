@@ -102,7 +102,7 @@ a.pure-button-primary {
 }
 .home-menu.pure-menu-open {
     //background: #2d3e50;
-	background: #FFD700;
+	background: rgba(255, 215, 0, 0.9);
 }
 .pure-menu.pure-menu-open.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -233,11 +233,14 @@ a.pure-button-primary {
 /* This is the class used for the dark-background areas. */
 .ribbon {
     //background: #2d3e50;
-    background: #FFD700;
+    background: rgba(255, 215, 0, 0.8);
 	color: #aaa;
 	display: block;
 }
-
+.rlabel{
+	color: #aaa;
+	display: block;
+}
 /* This is the class used for the footer */
 .footer {
     background: #111;
