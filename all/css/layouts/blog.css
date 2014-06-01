@@ -6,7 +6,8 @@
 
 a {
     text-decoration: none;
-    color: rgb(61, 146, 201);
+    //color: rgb(61, 146, 201);
+	color: #FF8C00;
 }
 a:hover,
 a:focus {
@@ -34,7 +35,8 @@ h3 {
 }
 
 .sidebar {
-    background: rgb(61, 79, 93);
+    //background: rgb(61, 79, 93);
+    background: #FFD700;
     color: #fff;
 }
 
@@ -47,7 +49,8 @@ h3 {
 }
 .brand-tagline {
     font-weight: 300;
-    color: rgb(176, 202, 219);
+    //color: rgb(176, 202, 219);
+	color: #CD853F;
 }
 
 .nav-list {
@@ -62,8 +65,9 @@ h3 {
 }
 .nav-item a {
     background: transparent;
-    border: 2px solid rgb(176, 202, 219);
-    color: #fff;
+    //border: 2px solid rgb(176, 202, 219);
+    border: 2px solid #CD853F;
+	color: #fff;
     margin-top: 1em;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -71,8 +75,9 @@ h3 {
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 2px solid rgb(61, 146, 201);
-    text-decoration: none;
+    //border: 2px solid rgb(61, 146, 201);
+    border: 2px solid #FF8C00;
+	text-decoration: none;
 }
 
 .content-subhead {
