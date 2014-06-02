@@ -16,5 +16,5 @@ var FoodSchema = new Schema({
 });
 
 
-
+//把schema轉為model
 var Food = mongoose.model('Food',FoodSchema);
