@@ -8,11 +8,7 @@ var Food = mongoose.model('Food');
 
 
 new FoodDonate({
-		Foodname: req.body.name
-		FoodPosition:
-		FoodAvailable:
-		FoodPosition:
-
+		
 		supply_id       : supply_index++,
 	    supplier_name	: req.body.name,
 	    tel				: req.body.tel,

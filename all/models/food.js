@@ -7,10 +7,10 @@ var Schema = mongoose.Schema;
 
 var FoodSchema = new Schema({
 
-	Foodname:{type: String, required: true},
-	FoodPosition:{type: String, required: true},
-	FoodAvailable:{type:String, required: true},
-	FoodPosition:{type: String, required: true},
+	Name:{type: String, required: true},
+	Place:{type: String, required: true},
+	Deadline:{type:String, required: true},
+	Description:{type: String, required: true},
 
 	created:{type:Date, default:Date.now}
 });
