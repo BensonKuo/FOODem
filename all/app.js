@@ -8,6 +8,7 @@ var http = require('http');
 var path = require('path');
 
 
+//指定收到get or post的時候 會執行某一個function
 var app = express();
 
 app.get('/', routes.index);

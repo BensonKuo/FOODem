@@ -4,22 +4,15 @@ var mongoose = require('mongoose');
 var Food = mongoose.model('Food');
 
 
-
-
-
+//要執行的function寫這理
+//新增一筆DB資料
 new FoodDonate({
 		
-		supply_id       : supply_index++,
-	    supplier_name	: req.body.name,
-	    tel				: req.body.tel,
-	    email			: req.body.email,
-	    item_name		: req.body.item_name,
-	    catogory   		: req.body.catogory,
-	    amount	   		: req.body.amount,
-	    credit	   		: req.body.credit,
-	    face       		: face,
-	    delivery   		: delivery,
-      	updated_at 		: Date.now()
+		Name	: req.body.Name,
+	    Position: req.body.Position,
+	    Deadline: req.body.Deadline,
+	    Description:req.body.Description,	    
+	    created 		: Date.now()
   	}).save( function ( err, need, count ){
     	if( err ) return next( err );
     	console.log('upload supply successfully');
