@@ -178,3 +178,44 @@ h3 {
         bottom: 0;
     }
 }
+
+.ideacontent{
+
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    width:600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.idea{
+    
+    background: #FEDFE1;
+    text-align: center;
+    padding: 100px;
+
+}
+
+
+.thinkabout{
+    font-size: 27px;
+    color:green;
+}
+
+.trulyneed{
+    font-size: 30px;
+    color:orange;
+    text-align: center;
+}
+
+.wewantto{
+    font-size: 27px;
+    color:#00E600;
+}
+
+.changeway{
+    font-size: 23px;
+    color:#FF6363;
+}

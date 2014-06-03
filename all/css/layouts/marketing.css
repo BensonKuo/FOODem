@@ -244,6 +244,7 @@ a.pure-button-primary {
 /* This is the class used for the footer */
 .footer {
     background: #111;
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 }
 
 /*
@@ -310,4 +311,43 @@ a.pure-button-primary {
 .arthor_pic{
 	width: 240px;
 	height: 240px;
+}
+
+.ideacontent{
+
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    width:600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.thinkabout{
+    font-size: 27px;
+    color:green;
+}
+
+
+.trulyneed{
+    font-size: 30px;
+    color:orange;
+    text-align: center;
+}
+
+/*.wewantto{
+    font-size: 27px;
+    color:#00E600;
+}
+*/
+
+.changeway{
+    font-size: 25px;
+    color:#FF6363;
+}
+
+.content-subhead{
+    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 }
