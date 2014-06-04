@@ -121,8 +121,9 @@ a.pure-button-primary {
  */
 
 .home-menu {
-    padding: 0.6em;
-    padding-bottom: 0em;
+    padding: 0.3em 0.6em;
+    /*padding-top: 0em;
+    padding-bottom: 0em;*/
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
@@ -140,16 +141,21 @@ a.pure-button-primary {
 
 .home-menu .pure-menu-heading {
     color: white;
-    font-weight: 400;
-    font-size: 200%;
-    font-family: 'MoolBoranRegular';
+    font-weight: 100;
+    font-size: 140%;
+    font-family: 'Calibri';
     /*text-transform: uppercase;*/
    }
 
+.pure-menu-heading {
+    float: left;
+}
+
 .home-menu .pure-menu-selected a {
     color: white;
-    font-size: 200%;
-    font-family: 'MoolBoranRegular';
+    font-weight: 100;
+    font-size: 140%;
+    font-family: 'Calibri';
 }
 
 .home-menu a {
@@ -211,12 +217,15 @@ a.pure-button-primary {
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     //color: white;
-    color: #F16529;
+    //color: #F16529;
+    color: #737373;
     letter-spacing: 0.05em;
     opacity: 0.8;
-    font-family:'MoolBoranRegular';
-    font-size: 4em;
-    margin: 0.8em;
+    font-family: 'Calibri';;
+    font-size: 2.5em;
+    /*margin: 0em;*/
+    font-style:italic;
+
 }
 
 /*
@@ -414,14 +423,15 @@ a.pure-button-primary {
 }
 
 .content-subsubhead{
-    font-family:'MoolBoranRegular', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
-    font-size: 1.8em;
+    font-family:'Calibri', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 1.3em;
     color: #FF7F50;
+    font-weight: bold;
     
 
 }
 
 .contactuscontext{
-    font-family: 'MoolBoranRegular', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
-    font-size: 1.5em;
+    font-family: 'Calibri', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 1.1em;
 }
