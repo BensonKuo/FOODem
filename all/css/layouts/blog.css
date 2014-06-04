@@ -96,6 +96,7 @@ h3 {
 
 .post {
     padding-bottom: 2em;
+    font-family: '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 }
 .post-title {
     font-size: 2em;
@@ -111,6 +112,7 @@ h3 {
     font-family: Georgia, "Cambria", serif;
     color: #444;
     line-height: 1.8em;
+    font-family: '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 }
 .post-meta {
     color: #999;
