@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+font-family: 'MoolBoranRegular';
+src: url('MoolBoran.eot');
+src: local('MoolBoran Regular'), 
+              local('MoolBoran'), 
+              url('MoolBoran.woff') format('woff'), 
+              url('MoolBoran.ttf') format('truetype'), 
+              url('MoolBoran.svg#MoolBoran') format('svg');
+} 
+
 a {
     text-decoration: none;
     //color: rgb(61, 146, 201);
@@ -16,6 +26,10 @@ a:focus {
 
 h3 {
     font-weight: 100;
+}
+
+h1{
+    font-weight: normal;
 }
 
 /* LAYOUT CSS */
@@ -43,17 +57,21 @@ h3 {
 .brand-title,
 .brand-tagline {
     margin: 0;
+    font-family:'MoolBoranRegular';
+   
+    letter-spacing: 0.05em;
 }
 .brand-title {
     /*text-transform: uppercase;*/
     /*font-family: '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';*/
-
+    font-size: 2.8em;
 }
 .brand-tagline {
     font-weight: 300;
     //color: rgb(176, 202, 219);
 	color: #CD853F;
-    font-family:  '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+     font-size: 2.3em;
+    /*font-family:  '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';*/
 }
 
 .nav-list {
@@ -65,6 +83,9 @@ h3 {
     display: inline-block;
     *display: inline;
     zoom: 1;
+    font-family:'MoolBoranRegular';
+   font-size: 1.8em;
+    letter-spacing: 0.05em;
 }
 .nav-item a {
     background: transparent;
@@ -183,4 +204,9 @@ h3 {
         top: 0;
         bottom: 0;
     }
+}
+
+
+.pure-button{
+    padding-bottom: 0em;
 }
