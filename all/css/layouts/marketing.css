@@ -119,6 +119,7 @@ a.pure-button-primary {
     color: white;
     font-weight: 400;
     font-size: 120%;
+   /* font-family: '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';*/
 }
 
 .home-menu .pure-menu-selected a {
@@ -355,4 +356,8 @@ a.pure-button-primary {
 
 .content-subhead{
     font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+}
+
+.contactuscontext{
+    font-family: '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
 }
