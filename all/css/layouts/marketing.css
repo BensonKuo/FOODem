@@ -300,6 +300,8 @@ a.pure-button-primary {
 
 @media (max-width:  767px) {
     .ice { display: none; }
+    .pure-g{ display: block;
+            }
 }
 
 
