@@ -45,7 +45,7 @@ h3 {
     margin: 0;
 }
 .brand-title {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     /*font-family: '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';*/
 
 }
@@ -73,7 +73,7 @@ h3 {
 	color: #fff;
     margin-top: 1em;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 85%;
 }
 .nav-item a:hover,
@@ -84,7 +84,7 @@ h3 {
 }
 
 .content-subhead {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: #aaa;
     border-bottom: 1px solid #eee;
     padding: 0.4em 0;

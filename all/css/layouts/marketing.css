@@ -25,6 +25,15 @@ label {
 	color: #FFD700;
 }
 
+@font-face {
+font-family: 'MoolBoranRegular';
+src: url('MoolBoran.eot');
+src: local('MoolBoran Regular'), 
+              local('MoolBoran'), 
+              url('MoolBoran.woff') format('woff'), 
+              url('MoolBoran.ttf') format('truetype'), 
+              url('MoolBoran.svg#MoolBoran') format('svg');
+}  
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -165,7 +174,7 @@ a.pure-button-primary {
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 /* This is the main heading that appears on the blue section */
@@ -208,7 +217,7 @@ a.pure-button-primary {
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
 }
@@ -250,7 +259,8 @@ a.pure-button-primary {
 /* This is the class used for the footer */
 .footer {
     background: #111;
-    font-family:'文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-family:'MoolBoranRegular', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 30px;
 }
 
 /*
