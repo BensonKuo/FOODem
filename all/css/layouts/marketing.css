@@ -71,8 +71,9 @@ src: local('MoolBoran Regular'),
  */
 .pure-form label {
     margin: 1em 0 0;
-    font-weight: bold;
-    font-size: 100%;
+    /*font-weight:bold;*/
+    font-size: 180%;
+    letter-spacing: 0.05em;
 }
 
 .pure-form input[type] {
@@ -95,6 +96,7 @@ src: local('MoolBoran Regular'),
     padding-bottom: 0em;
     border-radius: 5px;
     font-family:'MoolBoranRegular';
+    font-size: 1.5em;
 
 }
 
@@ -105,7 +107,7 @@ a.pure-button-primary {
     color: white;
     border-radius: 5px;
     font-size: 200%;
-	margin: 40px;
+	/*margin: 40px;*/
 }
 
 
@@ -129,6 +131,7 @@ a.pure-button-primary {
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
+    /*text-transform: uppercase;*/
 }
 
 .home-menu .pure-menu-heading {
@@ -136,6 +139,7 @@ a.pure-button-primary {
     font-weight: 400;
     font-size: 200%;
     font-family: 'MoolBoranRegular';
+    /*text-transform: uppercase;*/
    }
 
 .home-menu .pure-menu-selected a {
@@ -206,6 +210,9 @@ a.pure-button-primary {
     color: #F16529;
     letter-spacing: 0.05em;
     opacity: 0.8;
+    font-family:'MoolBoranRegular';
+    font-size: 4em;
+    margin: 0.8em;
 }
 
 /*
@@ -227,7 +234,7 @@ a.pure-button-primary {
 .content-head {
     font-weight: 400;
     /*text-transform: uppercase;*/
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     /*margin: 2em 0 1em;*/
 }
 
