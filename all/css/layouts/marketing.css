@@ -96,7 +96,7 @@ src: local('MoolBoran Regular'),
     //background-color: #1f8dd6;
     background-color: #F16529;
 	color: white;
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1.3em;
     padding-bottom: 0em;
     border-radius: 5px;
     font-family:'MoolBoranRegular';
@@ -279,6 +279,9 @@ a.pure-button-primary {
 	margin-right: auto;
 	letter-spacing: 0em;
 }
+
+
+
 /* This is the class used for the dark-background areas. */
 .ribbon {
     //background: #2d3e50;
