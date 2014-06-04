@@ -23,6 +23,9 @@ h6,
 label {
     //color: #34495e;
 	color: #FFD700;
+    font-family:'MoolBoranRegular';
+    font-size:3em;
+    margin: -1em, auto;
 }
 
 @font-face {
@@ -89,7 +92,10 @@ src: local('MoolBoran Regular'),
     background-color: #F16529;
 	color: white;
     padding: 0.5em 2em;
+    padding-bottom: 0em;
     border-radius: 5px;
+    font-family:'MoolBoranRegular';
+
 }
 
 a.pure-button-primary {
@@ -98,7 +104,7 @@ a.pure-button-primary {
     //color: #1f8dd6;
     color: white;
     border-radius: 5px;
-    font-size: 120%;
+    font-size: 200%;
 	margin: 40px;
 }
 
@@ -109,7 +115,8 @@ a.pure-button-primary {
  */
 
 .home-menu {
-    padding: 0.5em;
+    padding: 0.6em;
+    padding-bottom: 0em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
@@ -127,12 +134,14 @@ a.pure-button-primary {
 .home-menu .pure-menu-heading {
     color: white;
     font-weight: 400;
-    font-size: 120%;
-   /* font-family: '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';*/
-}
+    font-size: 200%;
+    font-family: 'MoolBoranRegular';
+   }
 
 .home-menu .pure-menu-selected a {
     color: white;
+    font-size: 200%;
+    font-family: 'MoolBoranRegular';
 }
 
 .home-menu a {
@@ -172,7 +181,7 @@ a.pure-button-primary {
     height: 50%;
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: -5em; left: 0; bottom: 0; right: 0;
     text-align: center;
     /*text-transform: uppercase;*/
 }
@@ -219,7 +228,7 @@ a.pure-button-primary {
     font-weight: 400;
     /*text-transform: uppercase;*/
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    /*margin: 2em 0 1em;*/
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -384,8 +393,18 @@ a.pure-button-primary {
 
 .content-subhead{
     font-family:'MoolBoranRegular', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 1.2em;
+}
+
+.content-subsubhead{
+    font-family:'MoolBoranRegular', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 1.8em;
+    color: #FF7F50;
+    
+
 }
 
 .contactuscontext{
     font-family: 'MoolBoranRegular', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
+    font-size: 1.5em;
 }
