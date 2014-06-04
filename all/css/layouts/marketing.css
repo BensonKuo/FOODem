@@ -147,6 +147,10 @@ a.pure-button-primary {
     /*text-transform: uppercase;*/
    }
 
+.pure-menu-heading {
+    float: left;
+}
+
 .home-menu .pure-menu-selected a {
     color: white;
     font-weight: 100;
