@@ -171,8 +171,8 @@ a.pure-button-primary {
 
 .splash-container {
     //background: #1f8dd6;
-    background-image: url(../../images/Lemon_Drops2.jpg);
-    z-index: 1;
+    background-image: url(../../images/Lemon_Drops2.jpg)  ;
+    z-index: -1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
