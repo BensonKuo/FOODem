@@ -96,11 +96,11 @@ src: local('MoolBoran Regular'),
     //background-color: #1f8dd6;
     background-color: #F16529;
 	color: white;
-    padding: 0.5em 2em;
+    padding: 0.5em 1.5em;
     padding-bottom: 0em;
     border-radius: 5px;
     font-family:'MoolBoranRegular';
-    font-size: 1.5em;
+    font-size: 1.9em;
 
 }
 
@@ -119,6 +119,11 @@ a.pure-button-primary {
  * -- MENU STYLES --
  * I want to customize how my .pure-menu looks at the top of the page
  */
+.navitem{
+    letter-spacing: 0.05em;
+    font-size: 0.91em;
+}
+
 
 .home-menu {
     padding: 0.3em 0.6em;
@@ -142,9 +147,9 @@ a.pure-button-primary {
 .home-menu .pure-menu-heading {
     color: white;
     font-weight: 100;
-    font-size: 140%;
+    font-size: 1.25em;
     font-family: 'Calibri';
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
    }
 
 .pure-menu-heading {
@@ -154,7 +159,7 @@ a.pure-button-primary {
 .home-menu .pure-menu-selected a {
     color: white;
     font-weight: 100;
-    font-size: 140%;
+    font-size: 1.2em;
     font-family: 'Calibri';
 }
 
@@ -178,7 +183,7 @@ a.pure-button-primary {
 .splash-container {
     //background: #1f8dd6;
     background-image: url(../../images/Lemon_Drops2.jpg)  ;
-    z-index: -1;
+    z-index: 0;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
@@ -222,7 +227,7 @@ a.pure-button-primary {
     letter-spacing: 0.05em;
     opacity: 0.8;
     font-family: 'Calibri';;
-    font-size: 2.5em;
+    font-size: 1.5em;
     /*margin: 0em;*/
     font-style:italic;
 
