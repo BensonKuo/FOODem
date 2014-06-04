@@ -57,6 +57,7 @@ src: local('MoolBoran Regular'),
 .l-box-lrg {
     padding: 2em;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    
 }
 
 .is-center {
@@ -71,9 +72,15 @@ src: local('MoolBoran Regular'),
  */
 .pure-form label {
     margin: 1em 0 0;
+<<<<<<< HEAD
     /*font-weight:bold;*/
     font-size: 180%;
     letter-spacing: 0.05em;
+=======
+    font-weight: bold;
+    font-size: 100%;
+
+>>>>>>> 1a4e4dc9e6caf7e83ca32ced6585a2a431c71dbe
 }
 
 .pure-form input[type] {
@@ -276,26 +283,29 @@ a.pure-button-primary {
 .footer {
     background: #111;
     font-family:'MoolBoranRegular', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
-    font-size: 30px;
+    
+    font-size: 2em;
 }
 
 
 .ice{
     width:500px;
-
 }
 
 
 /*ice cream go away~~*/
 @media (min-width:  767px) and (max-width: 915px){
-
     .ice { display: none; }
+
+
 }
 
 @media (max-width:  767px) {
     .ice { display: none; }
-
 }
+
+
+
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
