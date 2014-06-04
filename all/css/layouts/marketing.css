@@ -263,6 +263,24 @@ a.pure-button-primary {
     font-size: 30px;
 }
 
+
+.ice{
+    width:500px;
+
+}
+
+
+/*ice cream go away~~*/
+@media (min-width:  767px) and (max-width: 915px){
+
+    .ice { display: none; }
+}
+
+@media (max-width:  767px) {
+    .ice { display: none; }
+
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -289,7 +307,7 @@ a.pure-button-primary {
         }
 
     /* We increase the height of the splash-container */
-/*    .splash-container {
+    /* .splash-container {
         height: 500px;
     }*/
 
