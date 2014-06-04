@@ -4,12 +4,15 @@
 
 var tmplh='<h2 class="post-title"></h2>',
 	tmplb='<p class="post-meta"></p>',
-	mybutton = $('.mybutton');
+	mybutton = $(".mybutton");
 
-	//test only
+	//for testing only
 	mybutton.click(function(){
-		mybutton.addclass('post-meta')
-		
+		$(tmplh).appendTo
+
+
+
+
 		console.log("test success~");
 	});
 
