@@ -121,7 +121,9 @@ a.pure-button-primary {
  */
 .navitem{
     letter-spacing: 0.05em;
-    font-size: 0.91em;
+    /*font-size: 0.91em;*/
+    font-size: 1.2em;
+    font-family: 'Calibri';
 }
 
 
@@ -171,7 +173,7 @@ a.pure-button-primary {
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #AECFE5;
+    color: white;
 }
 
 
