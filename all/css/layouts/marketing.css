@@ -344,6 +344,7 @@ a.pure-button-primary {
     /* We want to give the content area some more padding */
     .content {
         padding: 1em;
+        padding-bottom: 2em;
     }
 
     /* We can align the menu header to the left, but float the
@@ -448,4 +449,8 @@ a.pure-button-primary {
 .contactuscontext{
     font-family: 'Calibri', '文泉驛微米黑', 'LiHei Pro', '微軟正黑體';
     font-size: 1.1em;
+}
+
+.space{
+    margin-top: 0.5em;
 }
